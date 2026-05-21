@@ -1,0 +1,41 @@
+{
+  "week": "2026-W31",
+  "items": [
+    {
+      "id": "write_w31_001",
+      "type": "topic",
+      "prompt_ko": "네가 가장 좋아하는 과목에 대해 2-3문장으로 써보세요. 왜 좋아하는지도 짧게 적어보세요.",
+      "prompt_en": "Write 2-3 sentences about your favorite subject. Also write why you like it.",
+      "target_length_words": [15, 30],
+      "grammar_focus": ["present simple", "because"],
+      "vocabulary_suggestions": ["favorite", "subject", "teacher", "fun", "because"],
+      "sample_answer_en": "My favorite subject is English. I like it because the teacher is fun. We sing songs and play games in class.",
+      "difficulty": 1,
+      "tags": ["학교", "기초"]
+    },
+    {
+      "id": "write_w31_002",
+      "type": "translation",
+      "prompt_ko": "다음 한국어 문장을 영어로 써보세요.\n'나는 매일 학교에 간다. 내 가장 친한 친구는 Jin이다.'",
+      "prompt_en": "Translate to English:\n'나는 매일 학교에 간다. 내 가장 친한 친구는 Jin이다.'",
+      "target_length_words": [10, 18],
+      "grammar_focus": ["present simple", "be 동사"],
+      "vocabulary_suggestions": ["school", "every day", "best friend"],
+      "sample_answer_en": "I go to school every day. My best friend is Jin.",
+      "difficulty": 1,
+      "tags": ["기초", "번역"]
+    },
+    {
+      "id": "write_w31_003",
+      "type": "topic",
+      "prompt_ko": "방과 후에 보통 무엇을 하는지 2-3문장으로 써보세요.",
+      "prompt_en": "Write 2-3 sentences about what you usually do after school.",
+      "target_length_words": [15, 35],
+      "grammar_focus": ["present simple", "time expressions (after, then)"],
+      "vocabulary_suggestions": ["after school", "homework", "play", "go home", "friends"],
+      "sample_answer_en": "After school, I play soccer with my friends. Then I go home and eat dinner. I usually do my homework before nine.",
+      "difficulty": 2,
+      "tags": ["일상"]
+    }
+  ]
+}

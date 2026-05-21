@@ -1,0 +1,89 @@
+{
+  "week": "2026-W31",
+  "items": [
+    {
+      "id": "read_w31_001",
+      "title": "My Friend Jin",
+      "passage_en": "My best friend is Jin. We are in the same class. He likes soccer and I like soccer too. After school, we play soccer on the playground. Sometimes we eat ice cream on the way home. I am happy when I am with him.",
+      "passage_ko": "내 가장 친한 친구는 진이다. 우리는 같은 반이다. 그는 축구를 좋아하고 나도 축구를 좋아한다. 방과 후, 우리는 운동장에서 축구를 한다. 가끔 집에 가는 길에 아이스크림을 먹는다. 그와 함께 있을 때 나는 행복하다.",
+      "word_count": 52,
+      "topic": "friendship",
+      "difficulty": 1,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "main_idea",
+          "question_ko": "이 글은 무엇에 관한 글인가요?",
+          "options": [
+            "Jin의 가족에 관한 글",
+            "내가 좋아하는 운동에 관한 글",
+            "내 친한 친구 Jin에 관한 글",
+            "학교 행사에 관한 글"
+          ],
+          "correct_index": 2,
+          "explanation_ko": "첫 문장 'My best friend is Jin'으로 글 전체가 친구 Jin과의 일상을 다룬다."
+        },
+        {
+          "id": "q2",
+          "type": "true_false",
+          "question_ko": "두 친구는 다른 반이다. (참/거짓)",
+          "options": ["참", "거짓"],
+          "correct_index": 1,
+          "explanation_ko": "'We are in the same class' — 같은 반이라고 했다."
+        },
+        {
+          "id": "q3",
+          "type": "vocabulary",
+          "question_ko": "'playground'의 뜻으로 알맞은 것은?",
+          "options": ["교실", "도서관", "운동장", "복도"],
+          "correct_index": 2,
+          "explanation_ko": "playground = 운동장/놀이터."
+        }
+      ],
+      "vocabulary_notes": [
+        { "word": "same", "meaning_ko": "같은" },
+        { "word": "playground", "meaning_ko": "운동장, 놀이터" },
+        { "word": "sometimes", "meaning_ko": "가끔" }
+      ],
+      "tags": ["일상", "friendship"]
+    },
+    {
+      "id": "read_w31_002",
+      "title": "My Favorite Subject",
+      "passage_en": "My favorite subject is English. The teacher is fun. We sing songs and play games in class. Sometimes she shows us short videos. I do my homework right after school because I like English so much. Now I can read short stories on my own.",
+      "passage_ko": "내가 가장 좋아하는 과목은 영어이다. 선생님이 재미있다. 수업 시간에 노래를 부르고 게임도 한다. 가끔 선생님이 짧은 영상을 보여주신다. 영어를 너무 좋아해서 방과 후 바로 숙제를 한다. 이제 짧은 이야기를 혼자 읽을 수 있다.",
+      "word_count": 48,
+      "topic": "school",
+      "difficulty": 2,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "main_idea",
+          "question_ko": "글쓴이가 영어를 좋아하는 이유로 글에서 언급되지 않은 것은?",
+          "options": [
+            "선생님이 재미있다",
+            "수업에 노래와 게임이 있다",
+            "친구가 잘한다",
+            "짧은 영상을 본다"
+          ],
+          "correct_index": 2,
+          "explanation_ko": "글에서 친구에 대한 언급은 없다."
+        },
+        {
+          "id": "q2",
+          "type": "blank",
+          "question_ko": "빈칸에 들어갈 단어로 알맞은 것은?\n'I do my homework right after ___ because I like English so much.'",
+          "options": ["dinner", "school", "lunch", "breakfast"],
+          "correct_index": 1,
+          "explanation_ko": "원문 'right after school' = 방과 후 바로."
+        }
+      ],
+      "vocabulary_notes": [
+        { "word": "subject", "meaning_ko": "과목" },
+        { "word": "right after", "meaning_ko": "~ 직후, 바로 후" },
+        { "word": "on my own", "meaning_ko": "혼자서" }
+      ],
+      "tags": ["학교", "영어공부"]
+    }
+  ]
+}

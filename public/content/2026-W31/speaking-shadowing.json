@@ -1,0 +1,55 @@
+{
+  "week": "2026-W31",
+  "items": [
+    {
+      "id": "shadow_w31_001",
+      "sentence_en": "I go to school every day.",
+      "sentence_ko": "나는 매일 학교에 간다.",
+      "audio_normal": "audio/shadow_w31_001.mp3",
+      "audio_slow": "audio/shadow_w31_001_slow.mp3",
+      "phonetics_focus": ["school", "every"],
+      "difficulty": 1,
+      "tags": ["기초"]
+    },
+    {
+      "id": "shadow_w31_002",
+      "sentence_en": "My favorite subject is English.",
+      "sentence_ko": "내가 가장 좋아하는 과목은 영어다.",
+      "audio_normal": "audio/shadow_w31_002.mp3",
+      "audio_slow": "audio/shadow_w31_002_slow.mp3",
+      "phonetics_focus": ["favorite", "subject"],
+      "difficulty": 1,
+      "tags": ["학교"]
+    },
+    {
+      "id": "shadow_w31_003",
+      "sentence_en": "We eat lunch at twelve thirty.",
+      "sentence_ko": "우리는 12시 30분에 점심을 먹는다.",
+      "audio_normal": "audio/shadow_w31_003.mp3",
+      "audio_slow": "audio/shadow_w31_003_slow.mp3",
+      "phonetics_focus": ["twelve", "thirty"],
+      "difficulty": 1,
+      "tags": ["일상"]
+    },
+    {
+      "id": "shadow_w31_004",
+      "sentence_en": "I do my homework after dinner.",
+      "sentence_ko": "나는 저녁 먹은 후에 숙제를 한다.",
+      "audio_normal": "audio/shadow_w31_004.mp3",
+      "audio_slow": "audio/shadow_w31_004_slow.mp3",
+      "phonetics_focus": ["homework", "after"],
+      "difficulty": 2,
+      "tags": ["일상"]
+    },
+    {
+      "id": "shadow_w31_005",
+      "sentence_en": "Let's play soccer on the playground.",
+      "sentence_ko": "운동장에서 축구하자.",
+      "audio_normal": "audio/shadow_w31_005.mp3",
+      "audio_slow": "audio/shadow_w31_005_slow.mp3",
+      "phonetics_focus": ["playground", "soccer"],
+      "difficulty": 2,
+      "tags": ["학교", "운동"]
+    }
+  ]
+}

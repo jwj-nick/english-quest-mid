@@ -1,0 +1,28 @@
+{
+  "week": "2026-W31",
+  "start_date": "2026-07-27",
+  "end_date": "2026-08-02",
+  "theme": "My School Day",
+  "theme_description_ko": "중1 첫 주차. 학교에서 보내는 하루를 주제로 일상 어휘·표현 익히기. 한 문장 6-12 단어, 한 지문 30-60 단어로 부담 없이.",
+  "targets": {
+    "vocabulary": { "goal_completions": 2, "available_items": 10 },
+    "listening": { "goal_completions": 1, "available_items": 2 },
+    "reading": { "goal_completions": 1, "available_items": 2 },
+    "speaking_shadowing": { "goal_completions": 2, "available_items": 5 },
+    "speaking_qa": { "goal_completions": 2, "available_items": 6 },
+    "speaking_roleplay": { "goal_completions": 1, "available_items": 1 },
+    "writing": { "goal_completions": 1, "available_items": 3 }
+  },
+  "xp_weights": {
+    "vocabulary": 10,
+    "listening": 15,
+    "reading": 18,
+    "speaking_shadowing": 12,
+    "speaking_qa": 15,
+    "speaking_roleplay": 25,
+    "writing": 20
+  },
+  "buffs_from_last_week": [],
+  "notes_from_retrospective": "middle1 프로필 첫 주차. 학교 일상이라는 친근한 주제로 시작. 모든 영역 분량 가볍게.",
+  "profile": "middle1"
+}

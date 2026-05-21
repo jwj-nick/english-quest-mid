@@ -1,0 +1,65 @@
+{
+  "week": "2026-W31",
+  "items": [
+    {
+      "id": "listen_w31_001",
+      "type": "dialogue",
+      "title": "What's for lunch?",
+      "duration_seconds": 22,
+      "transcript_en": "W: What's for lunch today? M: I think it's pizza and salad. W: Really? Pizza is my favorite! M: Mine too. Let's go to the cafeteria.",
+      "transcript_ko": "여: 오늘 점심 뭐야? 남: 피자랑 샐러드일 것 같아. 여: 정말? 피자는 내가 제일 좋아하는 거야! 남: 나도. 식당으로 가자.",
+      "audio": "audio/listen_w31_001.mp3",
+      "audio_slow": "audio/listen_w31_001_slow.mp3",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question_ko": "오늘 점심 메뉴는?",
+          "options": ["햄버거", "피자와 샐러드", "스파게티", "김밥"],
+          "correct_index": 1,
+          "explanation_ko": "남자가 'pizza and salad'라고 말했다."
+        },
+        {
+          "id": "q2",
+          "type": "multiple_choice",
+          "question_ko": "여자가 가장 좋아하는 음식은?",
+          "options": ["샐러드", "햄버거", "피자", "치킨"],
+          "correct_index": 2,
+          "explanation_ko": "여자가 'Pizza is my favorite!'라고 했다."
+        }
+      ],
+      "difficulty": 1,
+      "tags": ["학교", "음식"]
+    },
+    {
+      "id": "listen_w31_002",
+      "type": "dialogue",
+      "title": "After school plan",
+      "duration_seconds": 25,
+      "transcript_en": "M: What are you doing after school? W: I have soccer practice. How about you? M: I am going to the library. I have a lot of homework. W: Good luck!",
+      "transcript_ko": "남: 방과 후에 뭐 할 거야? 여: 축구 연습이 있어. 너는? 남: 도서관에 갈 거야. 숙제가 많아. 여: 행운을 빌어!",
+      "audio": "audio/listen_w31_002.mp3",
+      "audio_slow": "audio/listen_w31_002_slow.mp3",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple_choice",
+          "question_ko": "여자는 방과 후에 무엇을 하나요?",
+          "options": ["도서관에 간다", "축구 연습", "집에 간다", "친구를 만난다"],
+          "correct_index": 1,
+          "explanation_ko": "여자가 'I have soccer practice'라고 했다."
+        },
+        {
+          "id": "q2",
+          "type": "fill_blank",
+          "question_ko": "빈칸에 들어갈 단어를 영어로 쓰세요: 'I am going to the ___. I have a lot of homework.'",
+          "answer": "library",
+          "alternatives": ["Library"],
+          "explanation_ko": "도서관(library)에 간다고 했다."
+        }
+      ],
+      "difficulty": 2,
+      "tags": ["학교", "일상"]
+    }
+  ]
+}

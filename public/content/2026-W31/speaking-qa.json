@@ -1,0 +1,65 @@
+{
+  "week": "2026-W31",
+  "items": [
+    {
+      "id": "qa_w31_001",
+      "question_en": "What is your favorite subject?",
+      "question_ko": "네가 가장 좋아하는 과목은 무엇이니?",
+      "audio_question": "audio/qa_w31_001.mp3",
+      "expected_keywords": ["English", "math", "science", "favorite", "subject"],
+      "sample_answer_en": "My favorite subject is English. I like it because the teacher is fun.",
+      "difficulty": 1,
+      "tags": ["학교", "personal"]
+    },
+    {
+      "id": "qa_w31_002",
+      "question_en": "What do you have for lunch at school?",
+      "question_ko": "학교에서 점심은 뭘 먹어?",
+      "audio_question": "audio/qa_w31_002.mp3",
+      "expected_keywords": ["rice", "soup", "kimchi", "pizza", "salad", "school"],
+      "sample_answer_en": "I usually have rice, soup, and side dishes for lunch.",
+      "difficulty": 1,
+      "tags": ["일상", "음식"]
+    },
+    {
+      "id": "qa_w31_003",
+      "question_en": "Who is your best friend?",
+      "question_ko": "네 가장 친한 친구는 누구야?",
+      "audio_question": "audio/qa_w31_003.mp3",
+      "expected_keywords": ["friend", "name", "class", "kind", "funny"],
+      "sample_answer_en": "My best friend is Jin. We are in the same class.",
+      "difficulty": 1,
+      "tags": ["friendship"]
+    },
+    {
+      "id": "qa_w31_004",
+      "question_en": "What do you do after school?",
+      "question_ko": "방과 후에 뭐 해?",
+      "audio_question": "audio/qa_w31_004.mp3",
+      "expected_keywords": ["homework", "soccer", "library", "home", "play"],
+      "sample_answer_en": "I usually play soccer with my friends. Then I go home and do my homework.",
+      "difficulty": 2,
+      "tags": ["일상"]
+    },
+    {
+      "id": "qa_w31_005",
+      "question_en": "Do you wear a school uniform?",
+      "question_ko": "학교 교복 입어?",
+      "audio_question": "audio/qa_w31_005.mp3",
+      "expected_keywords": ["yes", "no", "uniform", "blue", "white", "wear"],
+      "sample_answer_en": "Yes, I wear a school uniform. It is blue and white.",
+      "difficulty": 2,
+      "tags": ["학교"]
+    },
+    {
+      "id": "qa_w31_006",
+      "question_en": "How do you go to school?",
+      "question_ko": "학교에 어떻게 가?",
+      "audio_question": "audio/qa_w31_006.mp3",
+      "expected_keywords": ["walk", "bus", "bike", "subway", "car", "school"],
+      "sample_answer_en": "I walk to school. It takes about ten minutes.",
+      "difficulty": 2,
+      "tags": ["일상"]
+    }
+  ]
+}
