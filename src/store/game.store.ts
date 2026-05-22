@@ -5,6 +5,7 @@ import type { AreaKey } from '@/types/content'
 import { levelFromXp } from '@/lib/level'
 import { isoNow, todayKey } from '@/lib/utils'
 import { celebrateLevelUp } from '@/lib/celebrate'
+import { loadAndMigrate, syncProfileUp, syncSessionUp } from '@/lib/sync'
 import { nanoid } from 'nanoid'
 
 const DEFAULT_PROFILE: UserProfile = {
@@ -31,10 +32,8 @@ export const useGameStore = create<GameState>((set, get) => ({
   loaded: false,
 
   load: async () => {
-    const [profile, sessions] = await Promise.all([
-      storage.getKv<UserProfile>('profile'),
-      storage.getAllSessions(),
-    ])
+    // Supabase + IndexedDB 통합 로드 (env 미설정 시 IndexedDB only)
+    const { sessions, profile } = await loadAndMigrate()
     set({
       profile: profile ?? DEFAULT_PROFILE,
       sessions: sessions.sort((a, b) => b.startedAt.localeCompare(a.startedAt)),
@@ -46,6 +45,8 @@ export const useGameStore = create<GameState>((set, get) => ({
     const next = { ...get().profile, ...patch }
     await storage.setKv('profile', next)
     set({ profile: next })
+    // 백그라운드 sync (실패해도 로컬은 이미 저장)
+    void syncProfileUp(next)
   },
 
   recordSession: async (s) => {
@@ -59,6 +60,9 @@ export const useGameStore = create<GameState>((set, get) => ({
     await storage.addSession(full)
     const nextSessions = [full, ...prevSessions]
     set({ sessions: nextSessions })
+    // 백그라운드 sync (await 안 함 — UX 지연 X)
+    void syncSessionUp(full)
+
     const nextLevel = levelFromXp(nextSessions.reduce((sum, x) => sum + x.xpEarned, 0)).level
     if (nextLevel > prevLevel) {
       // 레벨업 — 다음 tick에 confetti (DOM 준비 후)
@@ -70,6 +74,8 @@ export const useGameStore = create<GameState>((set, get) => ({
   resetAll: async () => {
     await storage.clearAll()
     set({ profile: DEFAULT_PROFILE, sessions: [] })
+    // 주의: V1.5 V2 부터는 Supabase 데이터도 지울지 확인 필요.
+    // 현재는 로컬만 리셋 (서버 데이터는 보존 — 다음 load 시 복원).
   },
 }))
 
