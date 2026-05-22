@@ -24,3 +24,10 @@ pnpm-debug.log*
 
 # PWA generated
 dev-dist
+
+# Secrets / private (Supabase keys, etc.)
+.private
+.private/
+.env
+.env.*
+!.env.example
